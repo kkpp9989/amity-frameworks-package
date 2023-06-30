@@ -19,8 +19,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AmityUIKitLiveStream",
-            url: "https://amity-uikit-dependency.firebaseapp.com/AmityUIKitLiveStream.xcframework.zip?1.0.4",
-            checksum: "41cca1a7f4fe53c80ee852d0bf99cf3890b78c8f7fdd22b46d316d8decc5c83c"
+            url: "https://amity-uikit-dependency.firebaseapp.com/AmityUIKitLiveStream.kk.xcframework.zip",
+            checksum: "adee925d52d5a64313e4b1e7562f21a457798a73de4ae036a991988ff367f025"
         ),
     ]
 )

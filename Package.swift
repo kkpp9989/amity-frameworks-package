@@ -14,18 +14,18 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AmityUIKit",
-            url: "https://amity-uikit-dependency.firebaseapp.com/AmityUIKit.xcframework.zip?1.0.7",
-            checksum: "51d0351407bcea2d5a725bd3fbf64e17f9bbbf90fcfe12d9793a2e66f0116172"
+            url: "https://amity-uikit-dependency.firebaseapp.com/AmityUIKit.xcframework.zip?030720221039",
+            checksum: "dfaf3814de11a3f032d44ce2666b7aa08bf643c50d957f5ad98ba76596e4cde7"
         ),
         .binaryTarget(
             name: "AmityUIKitLiveStream",
-            url: "https://amity-uikit-dependency.firebaseapp.com/AmityUIKitLiveStream.xcframework.zip?1.0.7",
-            checksum: "5c23aaae603def45e3d8263ddf89291aa98f7476c343edfde43bcf569767f182"
+            url: "https://amity-uikit-dependency.firebaseapp.com/AmityUIKitLiveStream.xcframework.zip?030720221039",
+            checksum: "4af45c27c5e27a14cb66361e4e2d0d6f8396950411a13f0dafd1db9f15052a91"
         ),
         .binaryTarget(
             name: "AmityUIKitLiveStreamSharedFrameworks",
-            url: "https://amity-uikit-dependency.firebaseapp.com/AmityUIKitLiveStreamSharedFrameworks.xcframework.zip?1.0.7",
-            checksum: "4214c01e938744a48f1984f5d55e7a6b312df1b2e2c1d720623ca6d89ccf05fa"
+            url: "https://amity-uikit-dependency.firebaseapp.com/SharedFrameworks_-70301671BE693C78_PackageProduct.xcframework.zip?030720221039",
+            checksum: "e8c41184816c326612c3d7f821dbbffe3289576cf4db558af4ce0ecba4218b3e"
         ),
     ]
 )

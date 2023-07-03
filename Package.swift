@@ -9,7 +9,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "AmitySDK",
-            targets: ["AmitySDK", "Realm", "RealmSwift", "AmityLiveVideoBroadcastKit", "AmityVideoPlayerKit", "MobileVLCKit"]),
+            targets: ["AmitySDK", "Realm", "RealmSwift", "AmityLiveVideoBroadcastKit", "AmityVideoPlayerKit", "MobileVLCKit","AmityUIKit","AmityUIKitLiveStream"]),
     ],
     targets: [
         .binaryTarget(
@@ -42,6 +42,16 @@ let package = Package(
                     url: "https://sdk.amity.co/sdk-release/ios-frameworks/6.8.0/MobileVLCKit.xcframework.zip",
                     checksum: "23224e65575cdc18314937efb1af0ce8791f1ed567440e52fb0b6e37621bb9f3"
                 ),
+        .binaryTarget(
+            name: "AmityUIKit",
+            url: "https://amity-uikit-dependency.firebaseapp.com/AmityUIKit.xcframework.zip?030720221355",
+            checksum: "331cfd98a78ba5e8a91b6ab54c34270d3dcba502950e1466c18276af1c16c2a1"
+        ),
+        .binaryTarget(
+            name: "AmityUIKitLiveStream",
+            url: "https://amity-uikit-dependency.firebaseapp.com/AmityUIKitLiveStream.xcframework.zip?030720221355",
+            checksum: "c3853ee25fc1a8404ea0a4c1df9d6e9e1a61ab150c055e86a49220f79ee7313e"
+        ),
     ]
 )
 

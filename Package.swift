@@ -4,28 +4,53 @@
 import PackageDescription
 
 let package = Package(
-    name: "AmityUIKit",
+    name: "AmitySharedFrameworks",
     products: [
+        // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "AmityUIKit",
-            targets: ["AmityUIKit","AmityUIKitLiveStream","AmityUIKitLiveStreamSharedFrameworks"]
-        ),
+            name: "AmitySharedFrameworks",
+            targets: ["AmitySharedFrameworks", "AmitySDK", "Realm", "RealmSwift", "AmityLiveVideoBroadcastKit", "AmityVideoPlayerKit", "MobileVLCKit"]),
+    ],
+    dependencies: [
+        // Dependencies declare other packages that this package depends on.
+        // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
+        // Targets are the basic building blocks of a package. A target can define a module or a test suite.
+        // Targets can depend on other targets in this package, and on products in packages this package depends on.
+        .target(
+            name: "AmitySharedFrameworks",
+            dependencies: []),
         .binaryTarget(
-            name: "AmityUIKit",
-            url: "https://amity-uikit-dependency.firebaseapp.com/AmityUIKit.xcframework.zip?1.0.7",
-            checksum: "51d0351407bcea2d5a725bd3fbf64e17f9bbbf90fcfe12d9793a2e66f0116172"
-        ),
+                    name: "AmitySDK",
+                    url: "https://sdk.amity.co/sdk-release/ios-uikit-frameworks/3.5.0/AmitySDK.xcframework.zip",
+                    checksum: "b8b0623a96081f6f782d1dec9c4b49242f425f9f5e9e00bc4c8838e9c3ca86f2"
+                ),
         .binaryTarget(
-            name: "AmityUIKitLiveStream",
-            url: "https://amity-uikit-dependency.firebaseapp.com/AmityUIKitLiveStream.xcframework.zip?1.0.7",
-            checksum: "5c23aaae603def45e3d8263ddf89291aa98f7476c343edfde43bcf569767f182"
-        ),
+                    name: "Realm",
+                    url: "https://sdk.amity.co/sdk-release/ios-uikit-frameworks/3.5.0/Realm.xcframework.zip",
+                    checksum: "7e1440db608d8a12000b134df7d767777028b11df1d27cdb713f5e9b192130ec"
+                ),
+         .binaryTarget(
+                    name: "RealmSwift",
+                    url: "https://sdk.amity.co/sdk-release/ios-uikit-frameworks/3.5.0/RealmSwift.xcframework.zip",
+                    checksum: "532fd6dcc1d00f4b551703f75ff64044a74c5f6e945d2e2f4b5eab75b3070ee9"
+                ),
         .binaryTarget(
-            name: "AmityUIKitLiveStreamSharedFrameworks",
-            url: "https://amity-uikit-dependency.firebaseapp.com/AmityUIKitLiveStreamSharedFrameworks.xcframework.zip?1.0.7",
-            checksum: "4214c01e938744a48f1984f5d55e7a6b312df1b2e2c1d720623ca6d89ccf05fa"
-        ),
+                    name: "AmityLiveVideoBroadcastKit",
+                    url: "https://sdk.amity.co/sdk-release/ios-uikit-frameworks/3.5.0/AmityLiveVideoBroadcastKit.xcframework.zip",
+                    checksum: "715a74f6d14b91518a2772a029e8e6631db0be93304116f5c39b015e2c1d16c4"
+                ),
+        .binaryTarget(
+                    name: "AmityVideoPlayerKit",
+                    url: "https://sdk.amity.co/sdk-release/ios-uikit-frameworks/3.5.0/AmityVideoPlayerKit.xcframework.zip",
+                    checksum: "6078e01d4107798ce95b5f1ee4b4c955ca9ac2fe7a461c0aac4b86d5ee57c684"
+                ),
+        .binaryTarget(
+                    name: "MobileVLCKit",
+                    url: "https://sdk.amity.co/sdk-release/ios-frameworks/6.8.0/MobileVLCKit.xcframework.zip",
+                    checksum: "23224e65575cdc18314937efb1af0ce8791f1ed567440e52fb0b6e37621bb9f3"
+                ),
     ]
 )
+

@@ -44,13 +44,13 @@ let package = Package(
                 ),
         .binaryTarget(
                    name: "AmityUIKit",
-                   url: "https://amity-uikit-dependency.firebaseapp.com/AmityUIKit.xcframework.zip?030720221355",
-                   checksum: "331cfd98a78ba5e8a91b6ab54c34270d3dcba502950e1466c18276af1c16c2a1"
+                   url: "https://amity-uikit-dependency.firebaseapp.com/AmityUIKit.xcframework.zip?040720220925",
+                   checksum: "5efe8fc14a1726862087b168bc0a457306e72a0ba66bdd93c01c6e219c391ee4"
         ),
         .binaryTarget(
                    name: "AmityUIKitLiveStream",
-                   url: "https://amity-uikit-dependency.firebaseapp.com/AmityUIKitLiveStream.xcframework.zip?030720221355",
-                   checksum: "c3853ee25fc1a8404ea0a4c1df9d6e9e1a61ab150c055e86a49220f79ee7313e"
+                   url: "https://amity-uikit-dependency.firebaseapp.com/AmityUIKitLiveStream.xcframework.zip?040720220925",
+                   checksum: "35bd8c903d68afed84d8bbf29b6a047a6a101176939e91255f456ddb18fe9ec1"
         ),
     ]
 )

@@ -1,4 +1,4 @@
-# amity-frameworks-package
+# Amity UIKit Frameworks Package
 
 Date: 11/07/2022
 

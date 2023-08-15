@@ -2,4 +2,4 @@
 
 A description of this package.
 
-update SDK to 6.11.0
+update SDK to 6.15.0

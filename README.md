@@ -2,4 +2,4 @@
 
 A description of this package.
 
-update SDK to 6.18.0
+update SDK to 6.19.0

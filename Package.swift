@@ -20,27 +20,27 @@ let package = Package(
         .binaryTarget(
                     name: "AmitySDK",
                     url: "https://sdk.amity.co/sdk-release/ios-uikit-frameworks/4.0.0-beta-3/AmitySDK.xcframework.zip",
-                    checksum: "2e8698979508571dbb94a8787fd246ac4c1565294776e77f0371e19451fba44e"
+                    checksum: "77349d2522220c6e9c71798aad99673743093e9b2e4ba19a09fab2596a009d58"
                 ),
         .binaryTarget(
                     name: "Realm",
                     url: "https://sdk.amity.co/sdk-release/ios-uikit-frameworks/4.0.0-beta-3/Realm.xcframework.zip",
-                    checksum: "b73fed0bf99de0841f180c00bfb82dd30a061ab6e0827808878ab7539942964d"
+                    checksum: "9c69b01848f3f0255cb21ea5d58a34bccf51f9065d063b43735f46456a159c6b"
                 ),
          .binaryTarget(
                     name: "RealmSwift",
                     url: "https://sdk.amity.co/sdk-release/ios-uikit-frameworks/4.0.0-beta-3/RealmSwift.xcframework.zip",
-                    checksum: "1498fb5b7ad0579a7d1d40e734bc78440257c198cd4be26d425bd311db5a2932"
+                    checksum: "50e2569fcd7b5f7776916fd68e8aa218cf14a82b8af3569b94bec4401f676e43"
                 ),
         .binaryTarget(
                     name: "AmityLiveVideoBroadcastKit",
                     url: "https://sdk.amity.co/sdk-release/ios-uikit-frameworks/4.0.0-beta-3/AmityLiveVideoBroadcastKit.xcframework.zip",
-                    checksum: "35de20a59340e3389d304ea9dd7a2db5271c3ec98cbc9edfd606823af68d33ea"
+                    checksum: "6b20123944af32545be8dfad83bd7a733cc04bcb6a6e8992cd5b9d0c5de6c670"
                 ),
         .binaryTarget(
                     name: "AmityVideoPlayerKit",
                     url: "https://sdk.amity.co/sdk-release/ios-uikit-frameworks/4.0.0-beta-3/AmityVideoPlayerKit.xcframework.zip",
-                    checksum: "b7a90fe1f4881a27ad923682958939df5cc3b4a63c46af90d6c3ae5599d21d1d"
+                    checksum: "3b007f594f461337bed1fc690d16170643dc881bce2ae022ebeb8b9df802fea1"
                 ),
         .binaryTarget(
                     name: "MobileVLCKit",
